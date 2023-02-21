@@ -13,37 +13,37 @@ console.log(myname.name);
 //2. Напишите функцию, которая выводит объем конуса по заданным параметрам - высота (height) и радиус (radius).
 // functionName(height, radius) // Объем конуса равен ...
 // V=h*Π*r
-let example2 = {};
-let volume = {
-  height: "56",
-  P: "5",
-  radius: "10",
-  
-  
-}
-console.log(example2);
+
 
 
 
 //3. Напишите функцию, которая принимает строку и возвращает ее длину.
 // functionName(" ... ") // Длина строки равна ..
 let names=["Aidan" , "Daian", "Raian"];
-console.log(num1);
+console.log(names);
 
 for (let i = 0; i <names.length; i++){
   console.log(names.length );
 }
 
 
-//let example4 = ["Aidan" , "Daian", "Raian"];
-//console.log("Hello my name is"+example4[0]);
-//console.log("Hello my name is"+example4[1]);
-//console.log("Hello my name is"+example4[2]);
-
 //4. Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
 // functionName(num) // Число - четное || Число - нечетное
+function isEven(num4){
+    if(num4 % 2 === 0){
+     console.log("even - " + num4)
+    }
+   else if(num4 % 2 === 1){
+     console.log("odd - " + num4)
+  }
+   else{
+    console.log("error - " + num4)
+   }
+ }
+isEven(2)
+   isEven(5)
 
-
+//
 
 
 
