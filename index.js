@@ -22,7 +22,8 @@ let volume = {
   coneVolume: function() {
     console.log(this.volume * this.height * this.P * this.radius);
   }
-
+  
+  
 }
 console.log(example2);
 
@@ -30,3 +31,19 @@ console.log(example2);
 
 //3. Напишите функцию, которая принимает строку и возвращает ее длину.
 // functionName(" ... ") // Длина строки равна ..
+let names=["Aidan" , "Daian", "Raian"];
+console.log(num1);
+
+for (let i = 0; i <names.length; i++){
+  console.log(names.length );
+}
+
+
+//let example4 = ["Aidan" , "Daian", "Raian"];
+//console.log("Hello my name is"+example4[0]);
+//console.log("Hello my name is"+example4[1]);
+//console.log("Hello my name is"+example4[2]);
+
+
+
+
