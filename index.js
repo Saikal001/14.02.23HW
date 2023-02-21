@@ -98,10 +98,10 @@ let num = 1;
 
 //14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3.
 
-let example4 = ["Aidan" , "Daian", "Raian"];
-console.log(example4);
-example4.push("3");
-console.log(example4);
+let num14 = ["1" , " 2 "];
+console.log(num14);
+num14.push("3");
+console.log(num14);
 //15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
 
 //17. Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
@@ -109,7 +109,7 @@ console.log(example4);
 //18. Создайте массив строк ["one", "two", "three"] и переверните его. // ["three", "two", "one"]
 let num18 = ["one", "two", "three"];
 console.log(num18);
-for ( i = names.length - 1; i>=0; i--) {
+for ( i = names.length - 1; i=>0; i++) {
   console.log(names[i] );
 
 }
@@ -118,7 +118,7 @@ for ( i = names.length - 1; i>=0; i--) {
 // Hello Erjan Hello Ermek ... 
 let trainer = ["Ermek"];
  for (let i = 0; i < trainer.length; i++) {
-  console.log("Hello" + trainer[i]);
+  console.log("Hello " + trainer[i]);
 }
 //20. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
 // 4 9 16 25
