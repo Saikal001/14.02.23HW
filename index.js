@@ -52,14 +52,19 @@ isEven(2)
 
 function square(num5){
     return num5 }
-   console.log(square(25))
+   console.log(square(25));
 
 //5. Напишите функцию, которая возвращает квадрат числа.
 // functionName(num) // Квадрат этого числа равен
 
 //6. Напишите функцию, которая возвращает корень числа.
 // functionName(num) // Корень этого числа равен
+function root(a) {
+   return Math.sqrt(a)
+  }
+  console.log(root(25))
 
+  
 //7. Напишите функцию, которая возвращает периметр пятиугольника.
 // functionName(a, b, c, d, e) // Периметр - ...
 
