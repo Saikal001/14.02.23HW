@@ -112,7 +112,10 @@ for ( i = names.length - 1; i>=0; i--) {
 
 //19. Создайте массив из имен (минимум 3) и выведите каждое имя.
 // Hello Erjan Hello Ermek ... 
-
+let trainer = ["Ermek"];
+ for (let i = 0; i < trainer.length; i++) {
+  console.log("Hello" + trainer[i]);
+}
 //20. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
 // 4 9 16 25
 
